@@ -4,6 +4,22 @@
 
 ### ⚡️ Added
 
+* Arpansagovau (arpansa.gov.au) module added, by [@jeffz](https://github.com/jeffz)
+* 'calendarReadLevel' setting added to gCal module, by [@mikkeljuhl](https://github.com/mikkeljuhl)
+* Todoist module now catches and displays API errors, by [@Seanstoppable](https://github.com/Seanstoppable)
+* TravisCI sort orders now configurable,  by [@nyourchuck](https://github.com/nyourchuck)
+* Google Analytics module now supports real-time metrics, [#581](https://github.com/wtfutil/wtf/issues/581) by [@Ameobea](https://github.com/Ameobea)
+
+### 🐞 Fixed
+
+* ScrollableWidget bounds checking error fixed, [#578](https://github.com/wtfutil/wtf/issues/578) by [@Seanstoppable](https://github.com/Seanstoppable)
+* Now properly URL-decodes Jenkins branch names, [#575](https://github.com/wtfutil/wtf/issues/575) by [@lesteenman](https://github.com/lesteenman)
+* Jira column sizes render properly, [#574](https://github.com/wtfutil/wtf/issues/574) by [@lesteenman](https://github.com/lesteenman)
+
+## v0.21.0
+
+### ⚡️ Added
+
 * Power Soure module support added for FreeBSD, by [@hxw](https://github.com/hxw)
 
 ### 🐞 Fixed
@@ -11,12 +27,14 @@
 * Power indicator displays ∞ on Linux when fully-charged and on AC power, [#534](https://github.com/wtfutil/wtf/issues/534) by [@Seanstoppable](https://github.com/Seanstoppable)
 * Default background color is now the terminal background color, making transparency support possible in MacOS and Linux,  by [@Seanstoppable](https://github.com/Seanstoppable)
 * `xdg-open` now used as the opener for HTTP/HTTPS by default, by [@hxw](https://github.com/hxw)
+* Transmission port over-ride now working, [#565](https://github.com/wtfutil/wtf/issues/565) by [@Seanstoppable](https://github.com/Seanstoppable)
+* Default config is now created on first run, [#553](https://github.com/wtfutil/wtf/issues/553) by [@senorprogrammer](https://github.com/senorprogrammer)
 
 ## v0.20.0
 
 ### ⚡️ Added
 
-* Kubernetes module, [#142](https://github.com/wtfutil/wtf/issues/142) by [@sudermanjr](https://github.com/sudermanjr)
+* Kubernetes module added, [#142](https://github.com/wtfutil/wtf/issues/142) by [@sudermanjr](https://github.com/sudermanjr)
 
 ### 🐞 Fixed
 
